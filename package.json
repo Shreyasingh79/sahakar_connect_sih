@@ -1,0 +1,27 @@
+{
+  "name": "sahakarconnect-monorepo",
+  "version": "1.0.0",
+  "description": "SahakarConnect - Cooperative Gig Services Platform for Smart India Hackathon 2026 (PS 26089)",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:backend": "npm --prefix backend run build",
+    "build": "npm run build:frontend && npm run build:backend",
+    "start": "npm --prefix backend start",
+    "start:backend": "npm --prefix backend start",
+    "seed": "npm --prefix backend run prisma:seed"
+  },
+  "keywords": [
+    "sih2026",
+    "cooperative",
+    "gig-economy",
+    "ministry-of-cooperation",
+    "react",
+    "express",
+    "prisma",
+    "postgresql"
+  ],
+  "author": "SIH 2026 Team",
+  "license": "MIT"
+}
